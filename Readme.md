@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий  Наумов](https://up.htmlacademy.ru/adaptive/15/user/685293).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад  Слепкан](https://up.htmlacademy.ru/adaptive/15/user/383197).
 
 ---
 
