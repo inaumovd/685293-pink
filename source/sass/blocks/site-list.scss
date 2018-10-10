@@ -1,0 +1,24 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: $main-blue;
+  list-style: none;
+}
+
+.site-list__link {
+  margin: 0;
+  padding: 18px 20px;
+  display: block;
+
+  color: #ffffff;
+
+  text-decoration: none;
+}

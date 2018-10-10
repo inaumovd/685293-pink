@@ -1,0 +1,16 @@
+.text-form {
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+
+  border: none;
+}
+
+.text-form__label {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: $main-red;
+  text-transform: uppercase;
+}
