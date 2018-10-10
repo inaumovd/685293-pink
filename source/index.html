@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -15,16 +16,16 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="#">Главная</a>
+              <a class="site-list__link" href="#">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фотографии</a>
+              <a class="site-list__link" href="photo.html">Фотографии</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Конкурс</a>
+              <a class="site-list__link" href="form.html">Конкурс</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru">HTML Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -32,13 +33,13 @@
     </header>
 
     <main class="page-main">
-      <h1 class="visualy-hidden">Социальная сеть Pink</h1>
+      <h1 class="visually-hidden">Социальная сеть Pink</h1>
 
-      <div class="app-intro"></div>
+      <div class="intro"></div>
       <section class="app-download">
-        <h2 class="visualy-hidden">Скачать приложение Pink</h2>
+        <h2 class="visually-hidden">Скачать приложение Pink</h2>
         <a class="app-download__button button" href="#">Скачать приложение</a>
-        <div class="app-download__logos-wrapper">
+        <div class="app-download__logos">
           <img class="app-download__logo app-download__logo--apple" src="http://placehold.it/44x41" width="44" height="41" alt="Apple logo">
           <img class="app-download__logo app-download__logo--android" src="http://placehold.it/44x41" width="44" height="41" alt="Android logo">
           <img class="app-download__logo app-download__logo--windows" src="http://placehold.it/44x41" width="44" height="41" alt="Windows logo">
@@ -47,29 +48,31 @@
       </section>
 
       <section class="features">
-        <h2 class="visualy-hidden">Приемущества приложения Pink</h2>
+        <h2 class="visually-hidden">Приемущества приложения Pink</h2>
         <h2 class="features__title">Устали от серости мегополиса?</h2>
         <h2 class="features__title">Нам есть, что вам предложить!</h2>
-        <ul class="features__list">
-          <li class="features__item">
-            <h3 class="features__title">Поднимает настроение</h3>
-            <p class="features__info">Приложение позволит вам победить осеннюю хандру и дипрессию буквально в несколько кликов!</p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__title">Меняет мир вокруг</h3>
-            <p class="features__info">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-          </li>
-          <li class="features__item">
-            <h3 class="features__title">Заводит новых друзей</h3>
-            <p class="features__info">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-          </li>
-        </ul>
-        <img class="features__phone-screen" src="http://placehold.it/157x320" width="157" height="320" alt="Phone hello screen">
+        <div class="features__list-wrapper">
+          <ul class="features__list">
+            <li class="features__item">
+              <h3 class="features__item-title">Поднимает настроение</h3>
+              <p class="features__info">Приложение позволит вам победить осеннюю хандру и дипрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__item-title">Меняет мир вокруг</h3>
+              <p class="features__info">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="features__item">
+              <h3 class="features__item-title">Заводит новых друзей</h3>
+              <p class="features__info">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
+          <img class="features__phone-screen" src="http://placehold.it/157x320" width="157" height="320" alt="Phone hello screen">
+        </div>
       </section>
 
       <section class="reviews">
         <div class="reviews__wrapper slider">
-          <h2 class="visualy-hidden">Отзывы о приложении</h2>
+          <h2 class="visually-hidden">Отзывы о приложении</h2>
           <blockquote class="reviews__item slider__item">
             <h3 class="reviews__autor">Николай Петров</h3>
             <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
@@ -87,21 +90,18 @@
           <table class="price__table slider__item">
             <tr class="price__item">
               <td class="price__item-head">
-                <h3>Стандарт</h3>
-                <p>3,99 USD</p>
+                <h3 class="price__title">Стандарт</h3>
+                <p class="price__price-value">3,99 USD</p>
               </td>
             </tr>
             <tr>
-              <td class="price__addition-type">Розовый фильтр</td>
-              <td>Yes</td>
+              <td class="price__addition-type">Розовый фильтр <span>Yes</span></td>
             </tr>
             <tr>
-              <td class="price__addition-type">Смайлики</td>
-              <td>Yes</td>
+              <td class="price__addition-type">Смайлики <span>Yes</span></td>
             </tr>
             <tr>
-              <td class="price__addition-type">Комментарии</td>
-              <td>No</td>
+              <td class="price__addition-type">Комментарии <span>No</span></td>
             </tr>
           </table>
           <p class="price__toggles slider__toggles">
@@ -117,11 +117,11 @@
       <h2 class="footer__title">Остались вопросы? Свяжитесь с нами!</h2>
       <div class="footer__contacts contacts">
         <h3 class="contacts__title">Звоните:</h3>
-        <a class="conacts__phone" href="tel:+78125556666">+7(812)555-66-66</a>
+        <a class="conacts__item" href="tel:+78125556666">+7(812)555-66-66</a>
         <h3 class="contacts__title">Пишите:</h3>
-        <a class="contacts__e-mail" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        <a class="conacts__item" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         <h3 class="contacts__title"> Приезжайте в гости:</h3>
-        <p class="contacts__address">ул. Большая Конюшенная, 19/8</p>
+        <p class="conacts__item">ул. Большая Конюшенная, 19/8</p>
       </div>
       <div class="footer__map"></div>
     </footer>

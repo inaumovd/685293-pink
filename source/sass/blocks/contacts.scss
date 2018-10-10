@@ -1,0 +1,24 @@
+.contacts {
+  margin: 0;
+  padding: 0 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.contacts__title {
+
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: $main-blue;
+}
+
+.conacts__item {
+  display: block;
+
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  color: $main-red;
+  text-decoration: none;
+}

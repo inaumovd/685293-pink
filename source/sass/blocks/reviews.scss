@@ -1,0 +1,25 @@
+.reviews {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.reviews__item {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.reviews__autor {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.reviews__text {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: $main-blue;
+}

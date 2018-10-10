@@ -1,0 +1,29 @@
+.main-form {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.main-form__info {
+  margin: 0;
+  padding: 47px 20px;
+
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: $main-blue;
+}
+
+.main-form__required {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-blue;
+}
+
+.main-form__star {
+  color: $main-red;
+}

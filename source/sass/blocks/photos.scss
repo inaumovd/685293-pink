@@ -1,0 +1,54 @@
+.photos {
+  margin: 0;
+  padding: 0 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+
+  background-color: #ffffff;
+  list-style: none;
+}
+
+.photo-post {
+  background-color: $main-gray;
+}
+
+.photo-post__wrapper {
+  padding: 20px;
+}
+
+.photo-post__author {
+  font-size: 14px;
+
+  font-weight: bold;
+  color: $main-blue;
+}
+
+.photo-post__time {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: lighter;
+  color: $main-blue;
+}
+
+.photo-post__post {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: lighter;
+  color: $main-blue;
+}
+
+.photo-post__like {
+  font-size: 12px;
+  line-height: 24px;
+  color: $main-red;
+  text-transform: uppercase;
+}
+
+.photo-post__like-counter {
+  font-size: 12px;
+  line-height: 24px;
+  color: $main-red;
+  text-transform: uppercase;
+}

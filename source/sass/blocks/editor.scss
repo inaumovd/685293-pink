@@ -1,0 +1,13 @@
+.editor {
+  margin: 0;
+  padding: 20px;
+
+  background-color: $main-gray;
+}
+
+.editor__buttons {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 0;
+}

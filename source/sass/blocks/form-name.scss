@@ -1,0 +1,27 @@
+.form-name {
+  display: flex;
+  margin: 0;
+  padding: 42px 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+
+  border: none;
+}
+
+.form-name__label {
+  font-size: 14px;
+  line-height: 30px;
+  color: $main-red;
+  text-transform: uppercase;
+}
+
+.form-name__input {
+  padding: 15px 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: $main-blue;
+
+  border: 2px solid $main-gray;
+}

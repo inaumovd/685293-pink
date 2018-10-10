@@ -1,0 +1,40 @@
+.button {
+  display: block;
+
+  padding: 17px 26px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  background-color: $main-blue;
+}
+
+.button--post {
+  color: $main-red;
+
+  border-color: $main-red;
+  background-color: #ffffff;
+}
+
+.button--reset {
+  color: transparentize($main-blue, 0.9);
+
+  border-color: transparentize($main-blue, 0.9);
+  background-color: #ffffff;
+}
+
+.button--submit {
+  line-height: 30px;
+  text-transform: uppercase;
+
+  background-color: $main-green;
+  border: 2px solid $main-green;
+  border-radius: 5px;
+}

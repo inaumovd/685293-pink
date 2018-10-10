@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -15,16 +16,16 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="index.html">Главная</a>
+              <a class="site-list__link" href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фотографии</a>
+              <a class="site-list__link" href="#">Фотографии</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Конкурс</a>
+              <a class="site-list__link" href="form.html">Конкурс</a>
             </li>
             <li class="site-list__item">
-              <a href="https://htmlacademy.ru">HTML Academy</a>
+              <a class="site-list__link" href="https://htmlacademy.ru">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -32,69 +33,83 @@
     </header>
 
     <main class="page-main">
-      <div class="photo-wrapper">
-        <div class="photo-header">
-          <h2 class="photo-header__title">Фотографии пользователей</h2>
+      <div class="intro-wrapper">
+        <div class="intro">
+          <h2 class="intro__title">Фотографии пользователей</h2>
         </div>
-        <div class="photo-intro">
-          <p class="photo-intro__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <div class="photos-title">
+          <p class="photos-title__text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         </div>
         <ul class="photos">
           <li class="photos__item photo-post photo-post--day-award">
             <img src="http://placehold.it/320x137" class="photo-post__img" width="320" height="137" alt="">
-            <span class="photo-post__autor">Анна</span>
-            <span class="photo-post__time">(5 минут назад)</span>
-            <p class="photo-post__post">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">215</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Анна</span>
+              <span class="photo-post__time">(5 минут назад)</span>
+              <p class="photo-post__post">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">215</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Левон</span>
-            <span class="photo-post__time">(5 часов назад)</span>
-            <p class="photo-post__post">Вчера он налуну летал, сегодня в руки к нам попал.</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">356</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Левон</span>
+              <span class="photo-post__time">(5 часов назад)</span>
+              <p class="photo-post__post">Вчера он налуну летал, сегодня в руки к нам попал.</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">356</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Антон</span>
-            <span class="photo-post__time">(12 часов назад)</span>
-            <p class="photo-post__post">Соседи будут рады!</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">666</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Антон</span>
+              <span class="photo-post__time">(12 часов назад)</span>
+              <p class="photo-post__post">Соседи будут рады!</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">666</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Борис</span>
-            <span class="photo-post__time">(20 часов назад)</span>
-            <p class="photo-post__post">Сдесь могла быть ваша цитата о высоком и вечном.</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">215</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Борис</span>
+              <span class="photo-post__time">(20 часов назад)</span>
+              <p class="photo-post__post">Сдесь могла быть ваша цитата о высоком и вечном.</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">215</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Сергей</span>
-            <span class="photo-post__time">(25 часов назад)</span>
-            <p class="photo-post__post">Самая кубанская в мире!</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">4</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Сергей</span>
+              <span class="photo-post__time">(25 часов назад)</span>
+              <p class="photo-post__post">Самая кубанская в мире!</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">4</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Максим</span>
-            <span class="photo-post__time">(40 часов назад)</span>
-            <p class="photo-post__post">Где снег-то?</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">150</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Максим</span>
+              <span class="photo-post__time">(40 часов назад)</span>
+              <p class="photo-post__post">Где снег-то?</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">150</span>
+            </div>
           </li>
           <li class="photos__item photo-post">
             <img src="http://placehold.it/280x180" class="photo-post__img" width="280" height="180" alt="">
-            <span class="photo-post__autor">Надежда</span>
-            <span class="photo-post__time">(45 часов назад)</span>
-            <p class="photo-post__post">Всем GM и взаимные лайки!</p>
-            <span class="photo-post__like">Нравится:</span>
-            <span class="photo-post__like-counter">2560</span>
+            <div class="photo-post__wrapper">
+              <span class="photo-post__author">Надежда</span>
+              <span class="photo-post__time">(45 часов назад)</span>
+              <p class="photo-post__post">Всем GM и взаимные лайки!</p>
+              <span class="photo-post__like">Нравится:</span>
+              <span class="photo-post__like-counter">2560</span>
+            </div>
           </li>
         </ul>
         <div class="advise">
@@ -108,9 +123,12 @@
             <span class="tools__item tools__item--brightness"></span>
           </div>
           <span class="editor__scale"></span>
+          <div class="editor__buttons">
+            <button type="button" class="editor__post-btn button button--post">Запостить</button>
+            <button type="button" class="editor__post-btn button button--reset button__inactive">Отмена</button>
+          </div>
         </section>
-        <button type="button" class="editor__post-btn button button__post">Запостить</button>
-        <button type="button" class="editor__post-btn button button__reset button__inactive">Отмена</button>
+
       </div>
     </main>
 
@@ -123,7 +141,7 @@
       </ul>
       <div class="simple-footer__copyright copyright">
         <p class="copyright__text">Разработано</p>
-        <a class="copyright__link " href="https://htmlacademy.ru">HTMLAcademy</a>
+        <a class="copyright__link " href="https://htmlacademy.ru"><span class="visually-hidden">HTMLAcademy</span></a>
       </div>
     </footer>
   </body>

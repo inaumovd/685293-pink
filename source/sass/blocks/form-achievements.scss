@@ -1,0 +1,25 @@
+.form-achievements {
+  display: flex;
+
+  margin: 0;
+  padding: 20px;
+
+  font-family: "Open Sans", "Arial", sans-serif;
+
+  border: none;
+  background-color: $main-gray;
+}
+
+.form-achievements__title {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: $main-red;
+  text-transform: uppercase;
+}
+
+.form-achievements__label {
+  font-size: 18px;
+  line-height: 30px;
+  color: $main-blue;
+}

@@ -1,0 +1,21 @@
+.footer {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.footer__title {
+  margin: 0;
+  padding: 0 20px;
+
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  color: $main-blue;
+}
+
+.footer__map {
+  width: auto; /*временно*/
+  height: 400px; /*временно*/
+
+  background-color: #e9e5dd;
+  background-image: url("../img/bg-map-mobile@1x.png");
+}
