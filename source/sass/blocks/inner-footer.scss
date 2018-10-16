@@ -1,0 +1,22 @@
+.inner-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+  padding: 40px;
+
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .inner-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 20px;
+  }
+}

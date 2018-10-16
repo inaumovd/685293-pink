@@ -1,4 +1,4 @@
-.photos {
+.photos__list {
   margin: 0;
   padding: 0 20px;
 
@@ -8,7 +8,7 @@
   list-style: none;
 }
 
-.photo-post {
+.photos__item {
   background-color: $main-gray;
 }
 
@@ -51,4 +51,17 @@
   line-height: 24px;
   color: $main-red;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .photos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photos__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

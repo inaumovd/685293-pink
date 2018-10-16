@@ -1,20 +1,24 @@
-@import "blocks/variables.scss";
+@import "variables.scss";
+@import "normalize.scss";
+@import "scaffolding.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/site-list.scss";
 @import "blocks/intro.scss";
+@import "blocks/page-main.scss";
 @import "blocks/app-download.scss";
 @import "blocks/button.scss";
 @import "blocks/features.scss";
+@import "blocks/research.scss";
 @import "blocks/reviews.scss";
 @import "blocks/price.scss";
-@import "blocks/footer.scss";
 @import "blocks/contacts.scss";
+@import "blocks/footer.scss";
 @import "blocks/photos-title.scss";
 @import "blocks/photos.scss";
 @import "blocks/advise.scss";
 @import "blocks/editor.scss";
-@import "blocks/simple-footer.scss";
+@import "blocks/inner-footer.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
 @import "blocks/main-form.scss";
@@ -23,11 +27,9 @@
 @import "blocks/form-contacts.scss";
 @import "blocks/app-radio-form.scss";
 @import "blocks/text-form.scss";
+@import "blocks/slider.scss";
+@import "blocks/tools.scss";
 
-body { /*временно*/
-  width: 320px;
-  margin: 0 auto;
-}
 
 .visually-hidden {
   position: absolute;

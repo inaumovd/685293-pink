@@ -2,33 +2,44 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <header class="page-header">
-      <a class="page-header__logo-link" href="#">
-        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Pink">
-      </a>
+      <div class="page-header__wrapper">
+        <a class="page-header__logo-link" href="#">
+          <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859" enable-background="new 0 0 74.426 22.859" xml:space="preserve">
+            <g>
+              <path fill="#FFFFFF" d="M0,1.449c0-0.708,0.58-1.288,1.256-1.288h7.18c5.087,0,8.436,2.704,8.436,7.147v0.064 c0,4.861-4.057,7.373-8.854,7.373H2.544v6.825c0,0.708-0.58,1.288-1.288,1.288C0.58,22.859,0,22.279,0,21.571V1.449z M8.114,12.428 c3.734,0,6.182-1.996,6.182-4.958V7.405c0-3.22-2.415-4.894-6.054-4.894H2.544v9.917H8.114z"/>
+              <path fill="#FFFFFF" d="M21.729,1.288C21.729,0.58,22.308,0,22.983,0c0.709,0,1.288,0.58,1.288,1.288v20.283 c0,0.708-0.579,1.288-1.288,1.288c-0.676,0-1.255-0.58-1.255-1.288V1.288z"/>
+              <path fill="#FFFFFF" d="M30.87,1.32c0-0.676,0.579-1.256,1.256-1.256h0.354c0.58,0,0.934,0.29,1.288,0.74l13.684,17.45V1.256 C47.451,0.58,47.998,0,48.707,0c0.676,0,1.223,0.58,1.223,1.256v20.348c0,0.676-0.482,1.191-1.158,1.191h-0.129 c-0.548,0-0.934-0.322-1.32-0.772L33.349,4.153v17.45c0,0.676-0.547,1.256-1.255,1.256c-0.677,0-1.224-0.58-1.224-1.256V1.32z"/>
+              <path fill="#FFFFFF" d="M56.3,1.288C56.3,0.58,56.879,0,57.556,0c0.708,0,1.287,0.58,1.287,1.288v12.331L71.689,0.451 C71.979,0.193,72.269,0,72.688,0c0.676,0,1.224,0.612,1.224,1.256c0,0.354-0.161,0.644-0.419,0.901l-7.984,7.92l8.564,10.561 c0.225,0.29,0.354,0.547,0.354,0.934c0,0.676-0.579,1.288-1.287,1.288c-0.483,0-0.806-0.258-1.03-0.58l-8.403-10.463l-4.862,4.861 v4.894c0,0.708-0.579,1.288-1.287,1.288c-0.677,0-1.256-0.58-1.256-1.288V1.288z"/>
+            </g>
+          </svg>
+        </a>
+        <svg class = "page-header__cross"version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
+          <path fill="#FFFFFF" d="M15.087,11.933l8.56-8.559c0.293-0.293,0.293-0.768,0-1.061L21.554,0.22C21.414,0.079,21.223,0,21.023,0 c-0.199,0-0.391,0.079-0.529,0.22l-8.561,8.56l-8.56-8.56c-0.282-0.282-0.78-0.282-1.061,0L0.22,2.313 c-0.293,0.293-0.293,0.768,0,1.061l8.56,8.559l-8.56,8.559c-0.293,0.293-0.293,0.768,0,1.062l2.093,2.094 c0.141,0.142,0.331,0.22,0.53,0.22c0.199,0,0.39-0.078,0.53-0.22l8.561-8.56l8.56,8.56c0.141,0.142,0.332,0.22,0.53,0.22 c0.199,0,0.39-0.078,0.53-0.22l2.093-2.094c0.293-0.294,0.293-0.769,0-1.062L15.087,11.933z"/>
+        </svg>
+        <button class="page-header__toggle" type="button">Открыть меню</button>
+      </div>
       <nav class="page-header__nav main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a class="site-list__link" href="index.html">Главная</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="photo.html">Фотографии</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="https://htmlacademy.ru">HTML Academy</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="https://htmlacademy.ru">HTML Academy</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -37,19 +48,27 @@
         <div class="intro">
           <h2 class="intro__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
         </div>
+        <div class="main-title">
+          <p class="main-title__text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+        </div>
         <form action="https://echo.htmlacademy.ru" method="post" class="main-form">
-          <p class="main-form__info">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
           <fieldset class="main-form__item main-form__item--author form-name">
-            <label class="form-name__label" for="surname">Фамилия:</label>
-            <input id="surname" name="surname" type="text" class="form-name__input" placeholder="Укажите фамилию *" required>
-            <label class="form-name__label" for="name">Имя:</label>
-            <input id="name" name="name" type="text" class="form-name__input" placeholder="Укажите ваше имя *" required>
-            <label class="form-name__label" for="patronymic">Отчество:</label>
-            <input id="patronymic" name="patronymic" type="text" class="form-name__input" placeholder="Ну и отчество тоже">
+            <div class="form-name__item">
+              <label class="form-name__label" for="surname">Фамилия:</label>
+              <input id="surname" name="surname" type="text" class="form-name__input" placeholder="Укажите фамилию *" required>
+            </div>
+            <div class="form-name__item">
+              <label class="form-name__label" for="name">Имя:</label>
+              <input id="name" name="name" type="text" class="form-name__input" placeholder="Укажите ваше имя *" required>
+            </div>
+            <div class="form-name__item">
+              <label class="form-name__label" for="patronymic">Отчество:</label>
+              <input id="patronymic" name="patronymic" type="text" class="form-name__input" placeholder="Ну и отчество тоже">
+            </div>
           </fieldset>
 
           <fieldset class="main-form__item main-form__item--achievements form-achievements">
-            <p class="form-achievements__title">Ваши безбашенные достижения в путешествии</p>
+            <legend class="form-achievements__title">Ваши безбашенные достижения в путешествии</legend>
             <label class ="form-achievements__label" for="selfie">Сделал селфи с акулой</label>
             <input type="checkbox" name="achievements" value="selfie" id="selfie" class="visually-hidden">
             <label class ="form-achievements__label" for="tan">Обгорел на пляже</label>
@@ -65,14 +84,19 @@
           </fieldset>
 
           <fieldset class="main-form__item main-form__item--contacts form-contacts">
-            <label class="form-contacts__label" for="tel">Номер телефона</label>
-            <input id="tel" name="tel" type="text" class="form-contacts__input" placeholder="Номер, пожалуйста">
-            <label class="form-contacts__label" for="e-mail">Адрес почты</label>
-            <input id="e-mail" name="e-mail" type="text" class="form-contacts__input" placeholder="Введите почту *" required>
+            <legend class="form-contacts__title">контактная информация</legend>
+            <div class="form-contacts__item">
+              <label class="form-contacts__label" for="tel">Номер телефона</label>
+              <input id="tel" name="tel" type="text" class="form-contacts__input" placeholder="Номер, пожалуйста">
+            </div>
+            <div class="form-contacts__item">
+              <label class="form-contacts__label" for="e-mail">Адрес почты</label>
+              <input id="e-mail" name="e-mail" type="text" class="form-contacts__input" placeholder="Введите почту *" required>
+            </div>
           </fieldset>
 
           <fieldset class="main-form__item main-form__item--app app-radio-form">
-            <p class="main-form__title app-radio-form__title">С каким приложением путешествовали?</p>
+            <legend class="main-form__title app-radio-form__title">С каким приложением путешествовали?</legend>
             <input type="radio" id="ios" name="app" value="ios" class="visually-hidden">
             <label for="ios" class="app-radio-form__label">Pink для IOS</label>
             <input type="radio" id="android" name="app" value="android" class="visually-hidden">
@@ -85,20 +109,22 @@
             <label class="text-form__label" for="description">Опишите свои эмоции</label>
             <textarea id="description" name="description" placeholder="Можно прям в красках, не стесняясь в выражениях" class="text-form__text"></textarea>
           </fieldset>
-          <button class="main-form__submit button button--submit" type="submit">Отправить форму</button>
-          <p class="main-form__required"> <span class="main-form__star">*</span> - обяательные поля</p>
+          <div class="main-form__sibmit-wrapper">
+            <button class="main-form__submit button button--submit" type="submit">Отправить форму</button>
+            <p class="main-form__required"> <span class="main-form__star">*</span> - обяательные поля</p>
+          </div>
         </form>
       </div>
     </main>
 
-    <footer class="simple-footer">
-      <img src="http://placehold.it/147x40" class="simple-footer__logo" width="147" height="40" alt="">
-      <ul class="simple-footer__social social">
+    <footer class="inner-footer">
+      <img src="http://placehold.it/147x40" class="inner-footer__logo" width="147" height="40" alt="">
+      <ul class="inner-footer__social social">
         <li><a href="" class="social__element social__element--tw"></a></li>
         <li><a href="" class="social__element social__element--fb"></a></li>
         <li><a href="" class="social__element social__element--yt"></a></li>
       </ul>
-      <div class="simple-footer__copyright copyright">
+      <div class="inner-footer__copyright copyright">
         <p class="copyright__text">Разработано</p>
         <a class="copyright__link " href="https://htmlacademy.ru"><span class="visually-hidden">HTMLAcademy</span></a>
       </div>

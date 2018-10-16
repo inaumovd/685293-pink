@@ -1,15 +1,26 @@
 .advise {
   margin: 0;
-  padding: 40px 35px;
+  padding: 40px 0;
 
   font-family: "Open Sans", "Arial", sans-serif;
+
+  background-color: #ffffff;
 }
 
 .advice__text {
   margin: 0;
+  padding: 0 35px;
 
   font-size: 14px;
   line-height: 30px;
   color: $main-blue;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .advice__text {
+    padding: 0 120px;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

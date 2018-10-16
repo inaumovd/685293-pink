@@ -23,3 +23,9 @@
   line-height: 30px;
   color: $main-blue;
 }
+
+@media (min-width: $tablet-width) {
+  .app-radio-form {
+    background-color: #ffffff;
+  }
+}

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
+  background-color: #ffffff;
 }
 
 .main-form__info {
@@ -26,4 +27,74 @@
 
 .main-form__star {
   color: $main-red;
+}
+
+@media (min-width: $tablet-width) {
+  .main-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-form__item--author {
+    order: 1;
+  }
+
+  .main-form__item--app {
+    order: 2;
+  }
+
+  .main-form__item--contacts {
+    order: 3;
+  }
+
+  .main-form__item--achievements {
+    order: 4;
+  }
+
+  .main-form_item--text {
+    order: 5;
+  }
+
+  .main-form__sibmit-wrapper {
+    order: 5;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .main-form__item--author {
+    flex-basis: 450px;
+    flex-grow: 1;
+  }
+
+  .main-form__item--app {
+    flex-basis: 450px;
+    flex-grow: 1;
+  }
+
+  .main-form__item--contacts {
+    flex-basis: 750px;
+    flex-grow: 1;
+  }
+
+  .main-form__item--achievements {
+    flex-basis: 750px;
+    flex-grow: 1;
+  }
+
+  .main-form_item--text {
+    flex-basis: 750px;
+    flex-grow: 1;
+  }
+
+  .main-form__sibmit-wrapper {
+    flex-basis: 750px;
+    flex-grow: 1;
+  }
 }

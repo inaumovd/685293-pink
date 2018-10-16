@@ -1,24 +1,42 @@
 .contacts {
   margin: 0;
-  padding: 0 20px;
+  padding: 0;
 
   font-family: "Open Sans", "Arial", sans-serif;
+  background-color: #ffffff;
+
+  list-style: none;
 }
 
 .contacts__title {
-
+  margin: 0;
+  padding: 0 20px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   color: $main-blue;
 }
 
-.conacts__item {
+.conacts__address {
   display: block;
-
+  padding: 0 20px;
+  margin-bottom: 20px;
   font-size: 24px;
+  line-height: 33px;
   font-weight: lighter;
   text-align: center;
   color: $main-red;
   text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .conacts__item {
+    width: 400px;
+  }
 }

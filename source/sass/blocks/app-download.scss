@@ -1,9 +1,7 @@
 .app-download {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
   padding: 28px 20px;
-
-  font-family: "Open Sans", "Arial", sans-serif;
-
   background-color: $main-blue;
 }
 
@@ -12,16 +10,47 @@
   align-items: center;
   justify-content: space-around;
 
-  padding: 15px;
+  padding: 0 20px;
+  margin-bottom: 22px;
 }
 
 .app-download__info {
   margin: 0;
-  padding: 15px 26px;
+  padding: 0 20px;
 
   font-size: 14px;
   line-height: 24px;
   font-weight: lighter;
   text-align: center;
   color: #ffffff;
+}
+
+.app-download__title {
+  display: none;
+}
+
+.app-download__button {
+  margin-bottom: 36px;
+}
+
+@media (min-width: $tablet-width) {
+  .app-download {
+    padding: 0;
+
+    width: 300px;
+
+    background-color: transparent;
+  }
+
+  .app-download__title {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0 28px;
+    display: block;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff;
+  }
 }

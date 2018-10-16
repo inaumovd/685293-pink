@@ -9,6 +9,10 @@
   border: none;
 }
 
+.form-contacts__title {
+  display: none;
+}
+
 .form-contacts__label {
   font-size: 14px;
   line-height: 30px;
@@ -25,4 +29,24 @@
   color: $main-blue;
 
   border: 2px solid $main-gray;
+}
+
+@media (min-width: $tablet-width) {
+  .form-contacts__title {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: $main-red;
+    text-transform: uppercase;
+  }
+
+  .form-contacts__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-contacts__label {
+    order: 2;
+  }
 }

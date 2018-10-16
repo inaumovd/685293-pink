@@ -1,13 +1,11 @@
 .intro {
   margin: 0;
   padding: 0;
-  width: auto; /*временно*/
-  height: 396px; /*временно*/
-
-  font-family: "Open Sans", "Arial", sans-serif;
 
   background-color: $main-blue;
   background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .intro__title {
@@ -18,4 +16,39 @@
   text-align: center;
   font-weight: lighter;
   color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 95px 20px;
+
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+  }
+
+  .intro__title {
+    padding: 0 150px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .intro__header {
+    order: 2;
+  }
+
+  .intro__download {
+    order: 1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro {
+    padding-left: 130px;
+    padding-right: 130px;
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+  }
 }

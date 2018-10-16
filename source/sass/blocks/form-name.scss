@@ -25,3 +25,18 @@
 
   border: 2px solid $main-gray;
 }
+
+@media (min-width: $tablet-width) {
+  .form-name__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-name__label {
+    margin-right: 25px;
+  }
+
+  .form-name__input {
+    flex-grow: 1;
+  }
+}
