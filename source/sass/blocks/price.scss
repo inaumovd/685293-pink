@@ -5,11 +5,8 @@
   font-family: "Open Sans", "Arial", sans-serif;
 
   background-color: $main-gray;
-}
 
-.price__table {
-  width: 100%;
-  table-layout: fixed;
+  overflow: auto;
 }
 
 .price__item-head {
